@@ -42,14 +42,18 @@ pip install -r requirements.txt
 
 Создайте базу данных PostgreSQL.
 
-Укажите параметры подключения к базе данных в файле app/core/config.py.
+Укажите параметры подключения к базе данных в файле `.env`.
 
-### Выполните миграции с помощью Alembic:
+Выполните миграции с помощью Alembic:
 
 ``` sh
 
 alembic upgrade head
 ```
+
+### Создание первого суперюзера
+
+Укажите параметры **FIRST_SUPERUSER_EMAIL** и **FIRST_SUPERUSER_PASSWORD** в файле `.env`.
 
 ### Запуск сервера
 
