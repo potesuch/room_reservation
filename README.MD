@@ -53,7 +53,7 @@ alembic upgrade head
 
 ### Создание первого суперюзера
 
-Укажите параметры **FIRST_SUPERUSER_EMAIL** и **FIRST_SUPERUSER_PASSWORD** в файле `.env`.
+Укажите параметры `FIRST_SUPERUSER_EMAIL` и `FIRST_SUPERUSER_PASSWORD` в файле `.env`.
 
 ### Запуск сервера
 
